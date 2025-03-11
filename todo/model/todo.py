@@ -29,5 +29,4 @@ class Todo:
         def pending_todos (self) -> list:
             return [todo for todo in self.todos.values() if todo.completed]
 
-        def compled_todos (self)
-
+        def compled_todos (self) ->
